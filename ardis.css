@@ -1,0 +1,69 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Kotak {
+    height: 329px;
+    width: 610px;
+    background-color: #DBDBDB;
+    border-radius: 30px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+.Kotak img {
+    margin-top: -75px;
+    width: 219px;
+    height: 219px;
+}
+.cont-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #FEEEE2;
+    width: 475px;
+    height: 56px;
+}
+.cont-text h2{
+    text-align: center;
+    margin-top: 13px;
+}
+.button1 {
+    background-color: #6FD240;
+    width: 157px;
+    height: 41px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    margin-top: 20px;
+    border: none;
+}
+.button2 {
+    width: 157px;
+    height: 41px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    background-color: #E12E2E;
+    margin-top: 20px;
+    border: none;
+    color: #FFFFFF;
+}
+.tombol {
+    display: flex;
+    gap: 25px;
+    font-size: 16px;
+}
